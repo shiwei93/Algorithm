@@ -2,6 +2,9 @@ import Foundation
 
 /// https://leetcode-cn.com/problems/add-binary/
 public func addBinary(_ a: String, _ b: String) -> String {
+    // a,b 字符串
+    // 倒序遍历，同为 "1" 产生进位
+    // 不同为 "1" 不进位，两数之和 return
     var extra = 0
     var ans = ""
     var aOffset = 1
