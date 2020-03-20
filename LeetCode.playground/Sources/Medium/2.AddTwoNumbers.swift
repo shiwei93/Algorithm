@@ -4,7 +4,7 @@ import Foundation
 public func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     let result: ListNode? = ListNode(0)
     var l1 = l1, l2 = l2, current = result
-    var index = 0; // 进位
+    var index = 0 // 进位
     while l1 != nil || l2 != nil {
         let left = l1?.val ?? 0
         let right = l2?.val ?? 0
