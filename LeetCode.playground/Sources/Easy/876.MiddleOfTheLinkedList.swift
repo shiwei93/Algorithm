@@ -1,5 +1,6 @@
 import Foundation
 
+/// https://leetcode-cn.com/problems/middle-of-the-linked-list/
 public func middleNode(_ head: ListNode?) -> ListNode? {
     // 1. 第一次遍历统计节点个数，第二次遍历
 //    var total = 0
